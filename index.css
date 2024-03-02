@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E2240;
+    font-family: "Lexend", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+li + li {
+    margin-left: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.active {
+    background-color: #FA716B;
+    color: #141A31;
+    padding: 0.5rem 1rem;
+    border-radius: 80px;
+}
+
+
+.tab__options {
+    background-color: #141A31;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    padding:  0.87rem 1.87rem;
+}
+
+.circle__parent {
+    background-color: #141A31;
+    padding: 5rem 1rem;
+    margin: 2rem 0;
+    color: #fff;
+    border: 10px solid #FA716B;
+    text-align: center;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.circle__parent  p{
+    font-size: 90px;
+}
+
+span {
+    font-size: 15px;
+}

@@ -3,36 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
     
-    <div id="wrapper">
+    <div class="wrapper">
+        <h1>ClockON</h1>
         <div class="tab">
-            <ul class="">
-                <li><a href="">CLOCK</a></li>
+            <ul class="tab__options">
+                <li class="active"><a href="">CLOCK</a></li>
                 <li><a href="">TIMER</a></li>
                 <li><a href="">CHRONOMETER</a></li>
             </ul>
             <div id="clock" class="">
-                <div>
-                    <span class="hours">15</span>
-                    <span class="minutes">pm</span>
+                <div class="circle__parent">
+                    <p class="hours">15</p>
+                    <p class="hours">15 <span>pm</span></p>
                 </div>
                 <div class="">
-                    <span class="dayOfTheWeek"></span>
-                    <span class="day"></span>
-                    <span class="month"></span>
+                    <p class="dayOfTheWeek"></p>
+                    <p class="day"></p>
+                    <p class="month"></p>
                 </div>
             </div>
 
-            <div class="timer">
-                
+            <div id="timer" class="">
+                <div>
+                <div>
+                    <div class="circle__parent">
+                        <p>653</p>
+                        <p>733</p>
+                    </div>
+                    <button>DELETE</button>
+                    <button>ADD TIMER</button>
+                </div>
+            </div>
+
+            <div id="chronometer">
+                <div>
+                    <div class="circle__parent">
+                        <p>0</p>
+                        <p>00</p>
+                    </div>
+                    <button>RESTART</button>
+                </div>
             </div>
         </div>
     </div>
 
-
-
+    <script src="app.js"></script>
 </body>
 </html>
