@@ -22,6 +22,7 @@ body {
 
 h1 {
     color: #fff;
+    margin-bottom: 1rem;
 }
 
 li {
@@ -39,7 +40,7 @@ a {
 
 
 .active {
-    background-color: #FA716B;
+    background-color: orange;
     color: #141A31;
     padding: 0.5rem 1rem;
     border-radius: 80px;
@@ -56,14 +57,15 @@ a {
 
 .circle__parent {
     background-color: #141A31;
-    padding: 5rem 1rem;
+    /* padding: 5rem 1rem; */
     margin: 2rem 0;
     color: #fff;
-    border: 10px solid #FA716B;
+    border: 10px solid orange;
     text-align: center;
     border-radius: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .circle__parent  p{
@@ -72,4 +74,23 @@ a {
 
 span {
     font-size: 15px;
+}
+
+
+#chronometer,#timer {
+    text-align: center;
+    display: none;
+}
+
+.date {
+    display: block;
+}
+
+button {
+    background-color: #141A31;
+    color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1rem;
+    
 }
