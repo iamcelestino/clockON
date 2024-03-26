@@ -39,6 +39,11 @@ a {
 }
 
 
+span {
+    color: white;
+}
+
+
 .active {
     background-color: orange;
     color: #141A31;
@@ -57,34 +62,27 @@ a {
 
 .circle__parent {
     background-color: #141A31;
-    /* padding: 5rem 1rem; */
+    padding: 2rem 1rem;
     margin: 2rem 0;
     color: #fff;
     border: 10px solid orange;
     text-align: center;
     border-radius: 100px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .circle__parent  p{
     font-size: 90px;
 }
 
-span {
-    font-size: 15px;
-}
 
 
 #chronometer,#timer {
     text-align: center;
-    display: none;
 }
 
-.date {
-    display: block;
-}
 
 button {
     background-color: #141A31;
@@ -92,5 +90,8 @@ button {
     border: none;
     border-radius: 5px;
     padding: 0.8rem 1rem;
-    
+}
+
+label {
+    display: block;
 }

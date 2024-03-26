@@ -9,6 +9,17 @@
 <body>
     
     <div class="wrapper">
+        <form action="">
+            <label for="number">hours</label>
+            <input type="number" id="hours" name="hours">
+
+            <label for="number">minutes</label>
+            <input type="number" id="minutes" name="minutes">
+
+            <label for="number">seconds</label>
+            <input type="number" id="seconds" name="seconds" >
+            <button type="submit">add Timer</button>
+        </form>
         <h1>ClockON</h1>
         <div class="tab">
             <ul class="tab__options">
@@ -32,23 +43,26 @@
             <div id="timer" class="">
                 <div>
                 <div>
-                    <div class="circle__parent">
-                        <p>653:</p>
-                        <p>733</p>
+                    <div class="circle__parent timer">
+                        <p><span class="hour">0</span> :h</p> 
+                        <hr>
+                        <p><span class="min">0</span> :min</p> 
+                        <hr>
+                        <p> <span class="sec">0</span> :sec</p>
                     </div>
-                    <button>DELETE</button>
-                    <button>START</button>
-                    <button>ADD TIMER</button>
+                    <button class="">DELETE</button>
+                    <button class="start">START</button>
+                    <button class="">ADD TIMER</button>
                 </div>
             </div>
 
             <div id="chronometer">
                 <div>
                     <div class="circle__parent">
-                        <p>0</p>
-                        <p>00</p>
+                        <p class="count">0</p>
                     </div>
-                    <button>RESTART</button>
+                    <button class="start now">start</button>
+                    <button class="start stop">RESTART</button>
                 </div>
             </div>
         </div>
